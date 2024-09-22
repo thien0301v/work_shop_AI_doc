@@ -1,5 +1,5 @@
 # Change the default theme to be use when building the site with Hugo
-baseURL= "https://thien0301v.github.io/work_shop_AI_doc"
+baseURL= "https://thien0301v.github.io/work_shop_AI_doc/"
 theme = "hugo-theme-learn"
 
 # For search functionality
