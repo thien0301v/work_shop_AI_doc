@@ -8,7 +8,7 @@ pre : " <b> 1. </b> "
 
 ### **Overview**
 The architecture diagram below shows the stages of an Intelligent Document Processing workflow. It starts with a data capture stage to securely store, aggregate different types (pdf, jpeg, png, tiff), formats, and layouts of documents. The next stage is classification, this is where you categorize your documents (for example categories such as contracts, claim forms, invoices, receipts and so on) followed by document extraction. In the extraction stage, you can extract meaningful business information from your documents. This extracted data is often used to gather insights via data analysis, or sent to downstream systems such as databases or transactional systems. The following stage is enrichment, at this stage documents can be enriched by redacting PII data, custom business term extraction, and so on. Finally, in the review/verification stage you can include a human workforce for document reviews to ensure the outcome is accurate.
- ![s1]({{.Site.BaseURL}}images/2.prerequisite/idp_arc_2.png)
+ ![s1](/images/2.prerequisite/idp_arc_2.png)
 
 ### Before we begin
 Let's look at a brief overview of Amazon Textract, Amazon Comprehend, and Amazon Augmented AI (A2). These are the AWS AI services that will be used in this workshop.
